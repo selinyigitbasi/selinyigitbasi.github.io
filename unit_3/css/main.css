@@ -1,6 +1,17 @@
+title {
+	 color: white;
+	 background-color: orange;
+}
+
 body {
 	background-color: white;
 	}
+
 h1, h2, p  {
 	color: black;
 	}
+
+#profession {
+	text-transform: italic
+}
+
