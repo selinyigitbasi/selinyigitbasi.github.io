@@ -9,15 +9,6 @@ h1 {
 	 font-weight: lighter;
 }
 
-body {
-	background-color: white;
-	color: black;
-}
-
-.hero {
-	background-size:cover;
-}
-
 .profession {
 	font-style: italic;
 	font-weight: lighter;
@@ -27,16 +18,39 @@ body {
 	position: absolute;
 	width: 100%;
 	font-family: 'Cookie', cursive;
-
 }
+
+
+.hero {
+	background-size:cover;
+}
+
+
+body {
+	background-color: white;
+	color: black;
+}
+
+
+#styleText{
+	font-style: italic;
+}
+
+
+h2 {
+	 color: black;
+	 font-family: 'Abel', sans-serif;
+	 font-size: 100px;
+	 text-align: left;
+	 width: 100%;
+	 font-weight: lighter;
+}
+
 
 .blue {
 	color: blue;
 }
 
-#styleText{
-	font-style: italic;
-}
 
 .circle-container {
 	display: inline-block;
