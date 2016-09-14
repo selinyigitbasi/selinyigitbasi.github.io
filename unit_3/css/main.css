@@ -1,6 +1,8 @@
 title {
 	 color: white;
 	 background-color: orange;
+	 font-family: 'Merienda One', cursive;
+
 }
 
 body {
@@ -8,7 +10,32 @@ body {
 	color: black;
 }
 
-#profession {
-	text-transform: italic;
+
+font-family
+
+.profession {
+	font-style: italic;
+}
+
+.blue {
+	color: blue;
+}
+
+#styleText{
+	font-style: italic;
+}
+
+.circle-container {
+	display: inline-block;
+}
+
+.circle {
+	height: 25px;
+	width: 25px;
+	border: 1px solid black;
+	border-radius: 50%;
+	background: red;
+	vertical-align: top;
+	display: inline-block;
 }
 
