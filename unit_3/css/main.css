@@ -46,8 +46,8 @@ h2 {
 }
 
 .belowfold{
-	margin-left: 300px;
-	margin-right: 300px;
+	margin-left: 400px;
+	margin-right: 400px;
 	background-color: white;
 }
 
@@ -75,15 +75,15 @@ h2 {
 #place {
 	font-size: 50px;
 	font-family: 'Crimson Text', serif;
-	margin-bottom: 2em;
+	margin-bottom: 1em;
 	padding-left: 200px;
 	padding-right: 200px;
 }
 
 #about {
 	font-size: 50px;
-	font-family: 'Open Sans', sans-serif;
-	color: #A9A9A9;
+	font-family: 'Crimson Text', serif;
+	color: #696969;
 	padding-left: 200px;
 	padding-right: 200px;
 }
