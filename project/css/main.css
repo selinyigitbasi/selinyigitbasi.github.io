@@ -21,6 +21,18 @@ h2 {
 	 width: 100%;
 }
 
+h3 {
+
+}
+
+h4 {
+
+}
+
+.bold {
+	font-weight:bold;
+}
+
 .profession {
 	font-style: italic;
 	font-weight: lighter;
@@ -33,29 +45,30 @@ h2 {
 .hero {
 	background-size:cover;
 }
-.belowfold{
-	/* background-color: white;
-	margin: auto; 
-	padding: 4em;
-	width: 75em; */
+
+#education {
+	background-color: white;
+	background-size: cover;
 }
 
-#role {
+#workexperience
+
+.role {
 	color: #008B8B;
 	font-size: 2em;
 }
 
-#org {
+.org {
 	font-size: 1.5em;
 	font-style: italic;
 }
 
-#date {
+.date {
 	/* font-size: 50px; */
 	font-family: 'Crimson Text', serif;
 }
 
-#place {
+.place {
 	font-family: 'Crimson Text', serif;
 }
 #splash {
@@ -66,21 +79,23 @@ h2 {
 	height: 90vh;
 	padding: 8em 0 0;
 }
-#education section { /* descendent selectors */
+
+#education section {
 
 }
+
 #education img {
 
 }
+
 #education section div {
 	
 }
-#about {
-	font-size: 50px;
+
+.about {
+	font-size: 1em;
 	font-family: 'Crimson Text', serif;
 	color: #696969;
-	padding-left: 200px;
-	padding-right: 200px;
 }
 
 
