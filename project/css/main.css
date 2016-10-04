@@ -1,6 +1,27 @@
 * {margin:0;padding:0;box-sizing:border-box;}
+
+nav {
+	background-color: black;
+	font-family: 'Abel', sans-serif;
+	color: white;
+	font-size: 1em;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	display: block;
+	float: left;
+	padding: 2em;
+	text-align: center;
+}
+
+a:hover {
+	background-color: #FF4500;
+}
+
 body {
-	background-color: #00CED1;
+	background-color: white;
 	color: black;
 	font-size: 16px;
 }
@@ -16,17 +37,44 @@ h1 {
 h2 {
 	 color: #FF4500;
 	 font-family: 'Abel', sans-serif;
-	 font-size: 4em;
+	 font-size: 1.5em;
 	 text-align: left;
 	 width: 100%;
+	 padding-left: 0.8em;
 }
 
-h3 {
-
+#two_column {
+	backgroun-color: white
+	border: 1px black solid;
+	padding: 20 px;
 }
 
-h4 {
+#left {
+    background-color: white;
+    padding: 20px;
+    float: left;
+    width: 50%;
+}
 
+#right {
+    background-color: white;
+    padding: 20px;
+    float: right;
+    width: 50%;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.thumb {
+	height: 5em;
+	width: 5em;
 }
 
 .bold {
@@ -59,17 +107,19 @@ h4 {
 }
 
 .org {
-	font-size: 1.5em;
+	font-size: 1em;
 	font-style: italic;
+	padding-bottom: 1em;
 }
 
 .date {
-	/* font-size: 50px; */
+	font-size: 1em;
 	font-family: 'Crimson Text', serif;
 }
 
 .place {
 	font-family: 'Crimson Text', serif;
+	font-size: 1em;
 }
 #splash {
 	background:url(../images/windsurfing.jpg);
@@ -80,16 +130,12 @@ h4 {
 	padding: 8em 0 0;
 }
 
-#education section {
-
-}
-
-#education img {
-
+#education {
+	padding: 2em;
 }
 
 #education section div {
-	
+	width: 60%;
 }
 
 .about {
