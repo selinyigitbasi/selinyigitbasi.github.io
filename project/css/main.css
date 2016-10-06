@@ -44,7 +44,7 @@ h2 {
 }
 
 #about {
-	width: 200%;
+	width: 100%;
 	height: 10em;
 	background-color: grey;
 }
@@ -90,6 +90,8 @@ h2 {
 
 .bold {
 	font-weight:bold;
+	font-family: 'Crimson Text', serif;
+	color: #696969;
 }
 
 .profession {
@@ -157,8 +159,8 @@ h2 {
 }
 
 #work-experience section {
-    width: 50%;
-    float: left;
+    width: 90%;
+    /*float: left;*/
     /* border: 1px solid; */
     padding: 2em;
 }
@@ -171,6 +173,24 @@ h2 {
 	color: #696969;
 }
 
+#education section {
+    width: 50%;
+    float: left;
+    /* border: 1px solid; */
+    padding: 1em;
+}
+
+#education h2 {position: absolute;top: 2em;left: -5em;padding: 0;}
+
+#work-images {
+	width: 100%;
+	height: 20em;
+	background-color: grey;
+}
+
+#work-images p {
+	color: white;
+}
 
 .circle-container {
 	display: inline-block;
@@ -184,23 +204,4 @@ h2 {
 	background: red;
 	vertical-align: top;
 	display: inline-block;
-}
-
-#education section {
-    width: 50%;
-    float: left;
-    /* border: 1px solid; */
-    padding: 2em;
-}
-
-#education h2 {position: absolute;top: 2em;left: -5em;padding: 0;}
-
-#work-images {
-	width: 200%;
-	height: 20em;
-	background-color: grey;
-}
-
-#work-images p {
-	color: white;
 }
