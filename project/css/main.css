@@ -19,6 +19,7 @@ nav a:hover {
 	background-color: #FF4500;
 }
 
+
 body {
 	background-color: white;
 	color: black;
@@ -42,25 +43,37 @@ h2 {
 	 padding-left: 0.8em;
 }
 
-#two_column {
+#about {
+	width: 200%;
+	height: 10em;
+	background-color: grey;
+}
+
+#about p {
+	color: white;
+	padding: 4em;
+	margin-left: 2em;
+}
+
+/*#two_column {
 	backgroun-color: white
 	border: 1px black solid;
 	padding: 20 px;
-}
+}*/
 
-#left {
+/*#left {
     background-color: white;
     padding: 20px;
     float: left;
     width: 50%;
-}
+}*/
 
-#right {
+/*#right {
     background-color: white;
     padding: 20px;
     float: right;
     width: 50%;
-}
+}*/
 
 .clearfix:after {
     visibility: hidden;
@@ -97,11 +110,10 @@ h2 {
 	background-size: cover;
 }
 
-#workexperience
-
 .role {
-	color: #008B8B;
-	font-size: 2em;
+	/*color: #008B8B;*/
+	color: black;
+	font-size: 1em;
 }
 
 .org {
@@ -138,6 +150,21 @@ h2 {
 	/* width: 60%; */
 }
 
+#work-experience {
+	width: 60em;
+	margin: 0 auto;
+	position: relative;
+}
+
+#work-experience section {
+    width: 50%;
+    float: left;
+    /* border: 1px solid; */
+    padding: 2em;
+}
+
+#work-experience h2 {position: absolute;top: 1em;left: -8em;padding: 0;}
+
 .about {
 	font-size: 1em;
 	font-family: 'Crimson Text', serif;
@@ -167,3 +194,13 @@ h2 {
 }
 
 #education h2 {position: absolute;top: 2em;left: -5em;padding: 0;}
+
+#work-images {
+	width: 200%;
+	height: 20em;
+	background-color: grey;
+}
+
+#work-images a {
+	color: white;
+}
