@@ -61,19 +61,19 @@ h2 {
 	padding: 20 px;
 }*/
 
-/*#left {
+.left {
     background-color: white;
-    padding: 20px;
+    padding: 2em;
     float: left;
     width: 50%;
-}*/
+}
 
-/*#right {
+.right {
     background-color: white;
-    padding: 20px;
+    padding: 2em;
     float: right;
     width: 50%;
-}*/
+}
 
 .clearfix:after {
     visibility: hidden;
@@ -143,9 +143,10 @@ h2 {
 }
 
 #education {
-	width: 60em;
+	width: 80%;
 	margin: 0 auto;
 	position: relative;
+	padding: 4em;
 }
 
 #education section div {
