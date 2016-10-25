@@ -66,6 +66,7 @@ li {
 
 p {
 	color: #696969;
+	clear: both;
 }
 
 p .date {
@@ -99,17 +100,16 @@ p .place {
     background-color: white;
     padding: 2em;
     float: left;
-    width: 40%;
 }
 
 .right {
     background-color: white;
     padding: 2em;
-    float: left;
-    width: 20%;
+    float: right;
+    /* width: 20%; */
 }
 
-.clearfix:after {
+.clearfix:after, #education section:after {
     visibility: hidden;
     display: block;
     font-size: 0;
@@ -171,18 +171,18 @@ p .place {
 	background-color: #FF4500;
 }
 
-#education h2 {position: absolute;top: 2em;left: 1em;padding: 0;}
+#education h2 {/* position: absolute; *//* top: 2em; *//* left: 1em; *//* padding: 0; */color: #fff;}
 
 #education {
 	width: 100%;
 	margin: 0 auto;
 	position: relative;
-	padding: 1em;
+	/* padding: 1em; */
 }
 
 #education section {
-    width: 100%;
-    padding: 2em 8em 2em 8em;
+    width: 600px;
+    margin: auto;
 }
 
 #education section section {
