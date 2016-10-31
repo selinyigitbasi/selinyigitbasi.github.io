@@ -256,7 +256,7 @@ p .place {
 #skills {
 	margin: 0 auto;
 	position: relative;
-	width:900px;
+	width:800px;
 }
 
 #titleskills {
@@ -283,6 +283,12 @@ p .place {
 	font-size: 1em;
 }
 
+#contact {
+	width: 800px;
+	margin: 0 auto;
+	position: relative;
+}
+
 #titlecontact {
 	width: 100%;
 	height: 3em;
@@ -291,4 +297,8 @@ p .place {
 
 .flag {
 	width: 2em;
+}
+
+blockquote {
+	padding-top:1em;
 }
