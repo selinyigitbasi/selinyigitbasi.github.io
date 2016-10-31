@@ -37,7 +37,7 @@ nav a {
 
 body {
 	background-color: white;
-	font-size: 16px;
+	font-size: 18px;
 }
 
 h1 {
@@ -59,6 +59,10 @@ h2 {
 	 padding-top: 0.2em;
 }
 
+h3 {
+	width: 300px;
+}
+
 li {
 	color: #696969;
 }
@@ -74,6 +78,10 @@ p .date {
 
 p .place {
 	color: black;
+}
+
+.about {
+	padding-top: 1em;
 }
 
 .hero {
@@ -123,6 +131,7 @@ p .place {
 }
 
 .bold {
+	padding-top: 1em;
 	font-weight: bolder;
 	font-family: 'Crimson Text', serif;
 	color: #696969;
@@ -179,7 +188,7 @@ p .place {
 }
 
 #education section {
-    width: 600px;
+    width: 800px;
     margin: auto;
 }
 
@@ -199,12 +208,13 @@ p .place {
 	width: 100%;
 	margin: 0 auto;
 	position: relative;
+	padding-bottom: 3em;
 }
 
 #work-experience section {
-    width: 1200px;
+    width: 800px;
     margin: auto;
-    /* padding: 2em 8em 2em 8em; */
+    padding-top: 3em;
 }
 
 #work-experience section section {
@@ -232,7 +242,7 @@ p .place {
 }
 
 #accolades {
-	width: 100%;
+	width: 800px;
 	margin: 0 auto;
 	position: relative;
 	padding: 1em;
@@ -243,10 +253,30 @@ p .place {
     padding: 2em 8em 2em 8em;
 }
 
+#skills {
+	margin: 0 auto;
+	position: relative;
+	width:900px;
+}
+
 #titleskills {
 	width: 100%;
 	height: 3em;
 	background-color: #EDD151;
+}
+
+#skills section div {
+	float: left;
+
+}
+
+.clearfix:after, #skills section div:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
 }
 
 .level {
