@@ -250,7 +250,7 @@ p .place {
 
 #accolades section {
     width: 100%;
-    padding: 2em 8em 2em 8em;
+    /*padding: 2em 6em 2em 6em;*/
 }
 
 #skills {
@@ -271,6 +271,15 @@ p .place {
 }
 
 .clearfix:after, #skills section div:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.clearfix:after, #accolades section:after {
     visibility: hidden;
     display: block;
     font-size: 0;
